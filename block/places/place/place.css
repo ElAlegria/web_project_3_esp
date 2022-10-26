@@ -1,0 +1,24 @@
+.place{
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraphs"
+    "button"
+    ;
+}
+
+@media screen and (min-width:768px) {
+    .place{
+        width: 720px;
+        grid-template-columns: repeat(2.1frs);
+        grid-template-areas: 
+        "title website"
+        "image paragraphs"
+        "button ."
+        ;
+    }
+
+}

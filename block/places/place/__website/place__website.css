@@ -1,0 +1,8 @@
+.place__website{
+    width: 18rem;
+    padding: 30px 0;
+    grid-area: website;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}

@@ -1,0 +1,14 @@
+.button__paragraph{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;    
+}
+
+@media screen and (min-width:768px){
+    .button__paragraph{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    }
+}

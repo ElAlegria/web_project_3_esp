@@ -1,0 +1,15 @@
+.gallery__photo{
+    width: 18em;
+}
+
+@media screen and (min-width:768px) {
+    .gallery__photo{
+        width: 22em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .gallery__photo{
+        width: 17.75em;
+    }
+}

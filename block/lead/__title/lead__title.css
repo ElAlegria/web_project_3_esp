@@ -1,0 +1,32 @@
+.lead__title{
+    width: 18rem;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+    font-family: 'Inter';
+    text-align: center;
+    margin: 50px 0 0;
+}
+
+@media screen and (min-width:430px) {
+    .lead__title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width:580px) {
+    .lead__title{
+        width: 25rem;
+        font-size: 65px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .lead__title{
+        width: 45rem;
+        font-size: 95px;
+        line-height: 100px;
+    }
+}

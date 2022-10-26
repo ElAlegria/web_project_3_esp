@@ -1,0 +1,12 @@
+.intro__paragraph{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@media screen and (min-width:1200px) {
+    .intro__paragraph{
+        width: 45em;
+    }
+}

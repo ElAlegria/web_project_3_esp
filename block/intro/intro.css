@@ -1,0 +1,35 @@
+.intro{
+    color:white;
+    width: 18rem;
+    padding: 44px 0 0;
+}
+@media screen and (min-width:440px){
+    .intro{
+        width: 26em;
+    }
+}
+
+@media screen and (min-width:580px){
+    .intro{
+        width: 30em;
+    }
+}
+
+@media screen and (min-width:670px){
+    .intro{
+        width: 38em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro{
+        width: 45em;
+        padding: 55px 0 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro{
+        width: 63.56em; 
+    }
+}

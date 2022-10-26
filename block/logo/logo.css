@@ -1,0 +1,22 @@
+.logo{
+    width: 12.5rem;
+    height: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+
+@media screen and (min-width:580px) {
+    .logo{
+        width: 15em;
+        height: 4em;
+    }
+}
+@media screen and (min-width:768px){
+    .logo{
+        width: 270px;
+        height: 70px;
+    }
+}

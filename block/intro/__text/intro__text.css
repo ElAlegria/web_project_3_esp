@@ -1,0 +1,19 @@
+.intro__text{
+    font-family: 'inter';
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+@media screen and (min-width:768px) {
+    .intro__text{
+        line-height: 34px;
+           
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .intro__text{
+        width: 45rem; 
+    }
+}

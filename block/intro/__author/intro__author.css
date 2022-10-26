@@ -1,0 +1,22 @@
+.intro__author{
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-align: right;
+
+}
+
+@media screen and (min-width:768px) {
+    .intro__author{
+        position: relative;
+        bottom: 28px;
+        right: 35px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .intro__author{
+        right: 335px;
+    }
+}
