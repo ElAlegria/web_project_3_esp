@@ -1,14 +1,19 @@
 .place__paragraphs{
-    width: 18em;
+    width: 288px;
     grid-area: paragraphs;
-    display: grid;
-    grid-template-rows: repeat(2.1fr);
-    gap: 7px;
-    grid-gap: 30px;
+  
 }
 
 @media screen and (min-width:768px) {
     .place__paragraphs{
-        max-height: 300px;
+        width: 352px;
+        max-height: 460px;
     }
+}
+
+@media screen and (min-width:1280px) {
+    .place__paragraphs{
+        width: 484px; 
+    }
+
 }

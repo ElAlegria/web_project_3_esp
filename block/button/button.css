@@ -6,6 +6,7 @@
     grid-area: button;
     display: flex;
     justify-content: center;
+    margin: 7px 0 0;
 }
 
 .button:hover {
@@ -16,5 +17,6 @@
     .button{
         width: 329px;
         padding: 13px 13px;
+        align-self: flex-start;
     }
 }

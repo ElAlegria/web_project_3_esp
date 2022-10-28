@@ -1,10 +1,16 @@
 .place__image{
-    width: 100%;
+    width: 18rem;
     grid-area: image;
 }
 
 @media screen and (min-width:768px) {
     .place__image{
         width: 340px;
+        align-self: flex-start;
+    }
+}
+@media screen and (min-width:1280px) {
+    .place__image{
+        width: 460px;
     }
 }

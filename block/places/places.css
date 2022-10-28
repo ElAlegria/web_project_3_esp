@@ -2,12 +2,17 @@
     padding: 62px 0 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 16px;
 }
+
 
 @media screen and (min-width:768px) {
     .places{
-        gap: 31px;
+        padding: 88px 0 0;
+        row-gap: 68px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .places{
+        padding: 92px 0 0;
     }
 }

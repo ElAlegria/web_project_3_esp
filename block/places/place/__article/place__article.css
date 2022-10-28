@@ -1,0 +1,25 @@
+.place__article{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    grid-area: article;
+}
+
+@media screen and (min-width:768px) {
+    .place__article{
+        width: 45rem;
+        display: grid;
+        align-items: flex-start;
+        grid-template-areas: 
+        "image paragraphs"
+        "button paragraphs";
+        column-gap:28px ;
+    }
+}
+@media screen and (min-width:1280px) {
+    .place__article{
+        width: auto;
+        row-gap: 45px;
+        column-gap: 40px;
+    }
+}
