@@ -1,19 +1,24 @@
 .place__paragraphs{
     width: 288px;
     grid-area: paragraphs;
-  
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 13px;
 }
 
 @media screen and (min-width:768px) {
     .place__paragraphs{
         width: 352px;
         max-height: 460px;
+        row-gap: 22px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .place__paragraphs{
-        width: 484px; 
+        width: 484px;
+        max-width: auto;
+        row-gap: 38px; 
     }
 
 }

@@ -9,18 +9,17 @@
     row-gap: 30px;
 }
 
-
-
-
 @media screen and (min-width:768px) {
     .place{
         width: 720px;
         grid-template-areas: 
         "title website"
-        "article article"
-        ;
+        "article article";
         justify-items: flex-start;
         row-gap: 24px;
+    }
+    .place:nth-last-of-type(1) {
+        padding: 250px 0 0;
     }
 }
 
@@ -28,9 +27,10 @@
     .place{
         width: 984px;
         row-gap: 48px;
+        grid-template-columns: repeat(2,498px) ;
     }
-    .place:nth-last-of-type(2n + 1) {
-        padding: 32px 0 0;
+    .place:nth-last-of-type(1) {
+        padding: px 0 0;
     }
     
 }

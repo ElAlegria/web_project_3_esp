@@ -1,12 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    width: 100%;
+:root{
     background: #2A2C2F;
     font-family: 'inter',sans-serif;
     color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
 }
 
 a{

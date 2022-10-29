@@ -12,18 +12,16 @@
         font-weight: bold;
         font-size: 42px;
         line-height: 46px;
-        font-family: 'inter';
-        align-self: flex-start;
-        justify-self: start;
+        align-self: center;
     }
 }
 
 @media screen and (min-width:1280px) {
     .place__title{
         width: 28.75rem;
-        font-family: 'Inter';
         font-weight: 900;
         font-size: 72px;
         line-height: 76px;
     }
 }
+

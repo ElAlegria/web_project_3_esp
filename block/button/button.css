@@ -4,9 +4,7 @@
     background:#0278FE;
     border-radius: 4px;
     grid-area: button;
-    display: flex;
-    justify-content: center;
-    margin: 7px 0 0;
+    text-align: center;
 }
 
 .button:hover {
