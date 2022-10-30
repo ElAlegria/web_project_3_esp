@@ -1,0 +1,20 @@
+.cover__button{
+    width: 198px;
+    z-index: 2;
+    padding: 15px 0;
+    background:#0278FE;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.cover__button:hover{
+    background: #0063D2;
+}
+
+
+
+
+
+
+
+ 

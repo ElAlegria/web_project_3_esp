@@ -27,7 +27,16 @@
 @import url(../block/places/place/__artist/place__artist.css);
 @import url(../block/button/button.css);
 @import url(../block/button/__paragraph/button__paragraph.css);
-
+@import url(../block/cover/cover.css);
+@import url(../block/cover/__content/cover__content.css);
+@import url(../block/cover/__title/cover__title.css);
+@import url(../block/cover/__subtitle/cover__subtitle.css);
+@import url(../block/cover/__button/cover__button.css);
+@import url(../block/cover/__overlay/cover__overlay.css);
+@import url(../block/cover/__image/cover__image.css);
+@import url(../block/footer/footer.css);
+@import url(../block/footer/__author/footer__author.css);
 
 @import url(../block/size/size.css);
+@import url(../block/position-top/position-top.css);
 

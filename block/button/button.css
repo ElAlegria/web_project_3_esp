@@ -11,10 +11,30 @@
     background: #0063D2;
 }
 
+@media screen and (min-width:567px) {
+    .button{
+        width: 302px;
+    }
+}
+
+
 @media screen and (min-width:768px) {
+    .button{
+        width: 329px;  
+        padding: 13px 13px;
+        align-self: flex-start;
+        position: relative;
+        bottom: 40px;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
     .button{
         width: 329px;
         padding: 13px 13px;
         align-self: flex-start;
+        bottom: 0;
     }
+  
 }

@@ -3,9 +3,15 @@
     grid-area: image;
 }
 
+@media screen and (min-width:580px)
+{
+    .place__image{
+        width: 20rem;
+    }
+}
 @media screen and (min-width:768px) {
     .place__image{
-        width: 340px;
+        width: 21.25rem;
         align-self: flex-start;
     }
 }

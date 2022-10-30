@@ -1,0 +1,33 @@
+.cover{
+    width: 100%;
+    height: 254px;
+    z-index: 5;
+    position: relative;
+    margin: 64px 0 0;
+}
+
+@media screen and (min-width:580px) {
+    .cover{
+        height: 446px
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cover{
+        height: 746px;
+        margin: 92px 0 0;
+    }
+}
+
+@media screen and (min-width:930px) {
+    .cover{
+        width:1000px ;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .cover{
+        width:1180px ;
+    }
+}

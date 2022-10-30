@@ -19,6 +19,7 @@
     .gallery{
         display: grid;
         width: 45em;
+        padding: 64px 0 0;
        
       
     }

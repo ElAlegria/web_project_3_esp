@@ -1,0 +1,21 @@
+.footer__author{
+    text-align: center;
+}
+
+@media screen and (min-width:320px) {
+    .footer__author{
+        padding: 64px 0 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .footer__author{
+        padding: 88px 0 0;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer__author{
+        padding: 92px 0 0;
+    }
+}
