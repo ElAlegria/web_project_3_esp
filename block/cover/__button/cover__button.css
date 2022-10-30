@@ -1,19 +1,17 @@
 .cover__button{
     width: 198px;
-    z-index: 2;
+    height: 22px;
     padding: 15px 0;
     background:#0278FE;
     border-radius: 4px;
+    grid-area: button;
     text-align: center;
+    z-index: 3;
 }
 
-.cover__button:hover{
+.cover__button:hover {
     background: #0063D2;
 }
-
-
-
-
 
 
 

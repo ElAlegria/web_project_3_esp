@@ -1,33 +1,34 @@
 .cover{
     width: 100%;
     height: 254px;
-    z-index: 5;
-    position: relative;
     margin: 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-image: url(/images/Meadow-fullhd.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 @media screen and (min-width:580px) {
     .cover{
-        height: 446px
-
+        height: 450px;
     }
-}
+} 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:980px) {
     .cover{
-        height: 746px;
-        margin: 92px 0 0;
+        width: 860px;
+        height: 550px;
     }
-}
+} 
 
-@media screen and (min-width:930px) {
+@media screen and (min-width:1184px) {
     .cover{
-        width:1000px ;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .cover{
-        width:1180px ;
+        width: 1184px;
+        height: 748px;
     }
 }

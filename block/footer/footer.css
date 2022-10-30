@@ -1,4 +1,17 @@
 .footer{
     display: flex;
     justify-content: center;
+    padding: 64px 0 24px;
+}
+
+@media screen and (min-width:768px) {
+    .footer{
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer{
+        padding-top: 92px;
+    }
 }
