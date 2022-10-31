@@ -1,4 +1,5 @@
 @import url(../vendor/normalice.css);
+@import url(../vendor/fonts/inter.css);
 @import url(../block/header/header.css);
 @import url(../block/logo/logo.css);
 @import url(../block/logo/__image/logo__image.css);
@@ -29,6 +30,7 @@
 @import url(../block/button/__paragraph/button__paragraph.css);
 @import url(../block/cover/cover.css);
 @import url(../block/cover/__title/cover__title.css);
+@import url(../block/cover/__paragraphs/cover__paragraphs.css);
 @import url(../block/cover/__subtitle/cover__subtitle.css);
 @import url(../block/cover/__button/cover__button.css);
 @import url(../block/cover/__link/cover__link.css);
