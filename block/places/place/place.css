@@ -39,7 +39,7 @@
     .place{
         width: 984px;
         row-gap: 48px;
-        grid-template-columns: repeat(2,498px) ;
+        grid-template-columns: repeat(2,498px);
     }
     .place:nth-last-of-type(1) {
         padding: 92px 0 0;
