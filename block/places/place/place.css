@@ -4,8 +4,7 @@
     grid-template-areas:
     "title"
     "website"
-    "article"
-    ;
+    "article";
     row-gap: 30px;
 }
 
