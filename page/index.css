@@ -2,7 +2,6 @@
 @import url(../vendor/fonts/inter.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);

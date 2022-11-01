@@ -1,5 +1,5 @@
 .gallery{
-    width: 288px;
+    /* width: 288px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
 @media screen and (min-width:620px){
     .gallery{
         display: grid;
-        width: 35em;
+        /* width: 35em; */
         grid-template-columns: repeat(2,1fr);
         gap: 16px;
     }
@@ -18,7 +18,7 @@
 @media screen and (min-width:768px){
     .gallery{
         display: grid;
-        width: 45em;
+        /* width: 45em; */
         padding: 64px 0 0;
        
       
@@ -27,7 +27,7 @@
 
 @media screen and (min-width:1200px){
     .gallery{
-        width: 74rem;
+        /* width: 74rem; */
         grid-template-rows: repeat(2,1fr);
         grid-template-columns: repeat(4,1fr);
         padding: 92px 0 0;

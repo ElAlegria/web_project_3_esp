@@ -16,6 +16,7 @@
 @media screen and (min-width:768px) {
     .place__paragraphs{
         width: 352px;
+        max-height: 400px;
         row-gap: 22px;
     }    
 }
