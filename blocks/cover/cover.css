@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
-    background-image: url(/images/Meadow-fullhd.png);
+    background-image: url(../../images/Meadow-fullhd.png);
     background-position: center;
     background-size: cover;
     position: relative;
